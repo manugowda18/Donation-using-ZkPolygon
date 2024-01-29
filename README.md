@@ -1,14 +1,13 @@
-# Donation to Educator dApp -- from Creation to Deployment
+# Donation to Educator dApp
 
-In this tutorial, we will create, test, and deploy a smart contract called Donation. This contract will allow online educators to receive donations for the free content they provide.
 
 ## Backend
 
 1. Open the terminal (command line), create two new folders called `donation-to-educator` and `backend`. Go into the `backend` folder.
 
 ```
-mkdir donation-to-educator
-cd donation-to-educator
+mkdir Donation-using-ZkPolygon
+cd donation-using-ZkPolygon
 mkdir backend
 cd backend
 ```
@@ -37,7 +36,7 @@ npx hardhat
 
 5. Open the `backend` folder and remove any present contracts inside the `contracts` folder. Insert your `Donation` contract.
 
-6. Now, inside the `scripts` folder, replace the contect of the `deploy.js` file with the [deploy.js code from this project](https://raw.githubusercontent.com/charmingdata/dApp-donation-to-educator/main/backend/scripts/deploy.js).
+6. Now, inside the `scripts` folder, replace the contect of the `deploy.js` file with the [deploy.js code from this project]
 
 7. Create a `.env` file inside the `backend` folder. This will be used to store your wallet's private key.
 
